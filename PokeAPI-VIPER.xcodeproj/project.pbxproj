@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A04E2AC92E7AA1D500EEA508 /* netfox in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AC82E7AA1D500EEA508 /* netfox */; };
+		A04E2ACE2E7AAE0300EEA508 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2ACD2E7AAE0300EEA508 /* RealmSwift */; };
+		A04E2AD12E7AB71800EEA508 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AD02E7AB71800EEA508 /* SnapKit */; };
+		A04E2AD42E7AB87F00EEA508 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AD32E7AB87F00EEA508 /* Alamofire */; };
+		A04E2AD72E7ACAE200EEA508 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AD62E7ACAE200EEA508 /* Differentiator */; };
+		A04E2AD92E7ACAE200EEA508 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AD82E7ACAE200EEA508 /* RxDataSources */; };
+		A04E2ADC2E7ACB0F00EEA508 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2ADB2E7ACB0F00EEA508 /* Moya */; };
+		A04E2ADE2E7ACB0F00EEA508 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2ADD2E7ACB0F00EEA508 /* ReactiveMoya */; };
+		A04E2AE02E7ACB0F00EEA508 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2ADF2E7ACB0F00EEA508 /* RxMoya */; };
+		A04E2AE32E7ACB2800EEA508 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AE22E7ACB2800EEA508 /* Nuke */; };
+		A04E2AE52E7ACB2800EEA508 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AE42E7ACB2800EEA508 /* NukeExtensions */; };
+		A04E2AE72E7ACB2800EEA508 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AE62E7ACB2800EEA508 /* NukeVideo */; };
+		A04E2AEA2E7ACB3500EEA508 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AE92E7ACB3500EEA508 /* MBProgressHUD */; };
+		A04E2AED2E7ACB5600EEA508 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AEC2E7ACB5600EEA508 /* RxBlocking */; };
+		A04E2AEF2E7ACB5600EEA508 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AEE2E7ACB5600EEA508 /* RxCocoa */; };
+		A04E2AF12E7ACB5600EEA508 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AF02E7ACB5600EEA508 /* RxRelay */; };
+		A04E2AF32E7ACB5600EEA508 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AF22E7ACB5600EEA508 /* RxSwift */; };
+		A04E2AF52E7ACB5600EEA508 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = A04E2AF42E7ACB5600EEA508 /* RxTest */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00E7E592E7A93FC00BC2C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00E7E3A2E7A93FB00BC2C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00E7E412E7A93FB00BC2C50;
+			remoteInfo = "PokeAPI-VIPER";
+		};
+		A00E7E632E7A93FC00BC2C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00E7E3A2E7A93FB00BC2C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00E7E412E7A93FB00BC2C50;
+			remoteInfo = "PokeAPI-VIPER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00E7E422E7A93FB00BC2C50 /* PokeAPI-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokeAPI-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00E7E582E7A93FC00BC2C50 /* PokeAPI-VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokeAPI-VIPERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00E7E622E7A93FC00BC2C50 /* PokeAPI-VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PokeAPI-VIPERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A00E7E6A2E7A93FC00BC2C50 /* Exceptions for "PokeAPI-VIPER" folder in "PokeAPI-VIPER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A00E7E412E7A93FB00BC2C50 /* PokeAPI-VIPER */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A00E7E442E7A93FB00BC2C50 /* PokeAPI-VIPER */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A00E7E6A2E7A93FC00BC2C50 /* Exceptions for "PokeAPI-VIPER" folder in "PokeAPI-VIPER" target */,
+			);
+			path = "PokeAPI-VIPER";
+			sourceTree = "<group>";
+		};
+		A00E7E5B2E7A93FC00BC2C50 /* PokeAPI-VIPERTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PokeAPI-VIPERTests";
+			sourceTree = "<group>";
+		};
+		A00E7E652E7A93FC00BC2C50 /* PokeAPI-VIPERUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PokeAPI-VIPERUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00E7E3F2E7A93FB00BC2C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04E2AE02E7ACB0F00EEA508 /* RxMoya in Frameworks */,
+				A04E2AD42E7AB87F00EEA508 /* Alamofire in Frameworks */,
+				A04E2ACE2E7AAE0300EEA508 /* RealmSwift in Frameworks */,
+				A04E2ADC2E7ACB0F00EEA508 /* Moya in Frameworks */,
+				A04E2AE72E7ACB2800EEA508 /* NukeVideo in Frameworks */,
+				A04E2AE32E7ACB2800EEA508 /* Nuke in Frameworks */,
+				A04E2AE52E7ACB2800EEA508 /* NukeExtensions in Frameworks */,
+				A04E2AD12E7AB71800EEA508 /* SnapKit in Frameworks */,
+				A04E2AF32E7ACB5600EEA508 /* RxSwift in Frameworks */,
+				A04E2ADE2E7ACB0F00EEA508 /* ReactiveMoya in Frameworks */,
+				A04E2AEA2E7ACB3500EEA508 /* MBProgressHUD in Frameworks */,
+				A04E2AD92E7ACAE200EEA508 /* RxDataSources in Frameworks */,
+				A04E2AEF2E7ACB5600EEA508 /* RxCocoa in Frameworks */,
+				A04E2AD72E7ACAE200EEA508 /* Differentiator in Frameworks */,
+				A04E2AF12E7ACB5600EEA508 /* RxRelay in Frameworks */,
+				A04E2AC92E7AA1D500EEA508 /* netfox in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00E7E552E7A93FC00BC2C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04E2AF52E7ACB5600EEA508 /* RxTest in Frameworks */,
+				A04E2AED2E7ACB5600EEA508 /* RxBlocking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00E7E5F2E7A93FC00BC2C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00E7E392E7A93FB00BC2C50 = {
+			isa = PBXGroup;
+			children = (
+				A00E7E442E7A93FB00BC2C50 /* PokeAPI-VIPER */,
+				A00E7E5B2E7A93FC00BC2C50 /* PokeAPI-VIPERTests */,
+				A00E7E652E7A93FC00BC2C50 /* PokeAPI-VIPERUITests */,
+				A00E7E432E7A93FB00BC2C50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00E7E432E7A93FB00BC2C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00E7E422E7A93FB00BC2C50 /* PokeAPI-VIPER.app */,
+				A00E7E582E7A93FC00BC2C50 /* PokeAPI-VIPERTests.xctest */,
+				A00E7E622E7A93FC00BC2C50 /* PokeAPI-VIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00E7E412E7A93FB00BC2C50 /* PokeAPI-VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00E7E6B2E7A93FC00BC2C50 /* Build configuration list for PBXNativeTarget "PokeAPI-VIPER" */;
+			buildPhases = (
+				A00E7E3E2E7A93FB00BC2C50 /* Sources */,
+				A00E7E3F2E7A93FB00BC2C50 /* Frameworks */,
+				A00E7E402E7A93FB00BC2C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A00E7E442E7A93FB00BC2C50 /* PokeAPI-VIPER */,
+			);
+			name = "PokeAPI-VIPER";
+			packageProductDependencies = (
+				A04E2AC82E7AA1D500EEA508 /* netfox */,
+				A04E2ACD2E7AAE0300EEA508 /* RealmSwift */,
+				A04E2AD02E7AB71800EEA508 /* SnapKit */,
+				A04E2AD32E7AB87F00EEA508 /* Alamofire */,
+				A04E2AD62E7ACAE200EEA508 /* Differentiator */,
+				A04E2AD82E7ACAE200EEA508 /* RxDataSources */,
+				A04E2ADB2E7ACB0F00EEA508 /* Moya */,
+				A04E2ADD2E7ACB0F00EEA508 /* ReactiveMoya */,
+				A04E2ADF2E7ACB0F00EEA508 /* RxMoya */,
+				A04E2AE22E7ACB2800EEA508 /* Nuke */,
+				A04E2AE42E7ACB2800EEA508 /* NukeExtensions */,
+				A04E2AE62E7ACB2800EEA508 /* NukeVideo */,
+				A04E2AE92E7ACB3500EEA508 /* MBProgressHUD */,
+				A04E2AEE2E7ACB5600EEA508 /* RxCocoa */,
+				A04E2AF02E7ACB5600EEA508 /* RxRelay */,
+				A04E2AF22E7ACB5600EEA508 /* RxSwift */,
+			);
+			productName = "PokeAPI-VIPER";
+			productReference = A00E7E422E7A93FB00BC2C50 /* PokeAPI-VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00E7E572E7A93FC00BC2C50 /* PokeAPI-VIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00E7E702E7A93FC00BC2C50 /* Build configuration list for PBXNativeTarget "PokeAPI-VIPERTests" */;
+			buildPhases = (
+				A00E7E542E7A93FC00BC2C50 /* Sources */,
+				A00E7E552E7A93FC00BC2C50 /* Frameworks */,
+				A00E7E562E7A93FC00BC2C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00E7E5A2E7A93FC00BC2C50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A00E7E5B2E7A93FC00BC2C50 /* PokeAPI-VIPERTests */,
+			);
+			name = "PokeAPI-VIPERTests";
+			packageProductDependencies = (
+				A04E2AEC2E7ACB5600EEA508 /* RxBlocking */,
+				A04E2AF42E7ACB5600EEA508 /* RxTest */,
+			);
+			productName = "PokeAPI-VIPERTests";
+			productReference = A00E7E582E7A93FC00BC2C50 /* PokeAPI-VIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00E7E612E7A93FC00BC2C50 /* PokeAPI-VIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00E7E732E7A93FC00BC2C50 /* Build configuration list for PBXNativeTarget "PokeAPI-VIPERUITests" */;
+			buildPhases = (
+				A00E7E5E2E7A93FC00BC2C50 /* Sources */,
+				A00E7E5F2E7A93FC00BC2C50 /* Frameworks */,
+				A00E7E602E7A93FC00BC2C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00E7E642E7A93FC00BC2C50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A00E7E652E7A93FC00BC2C50 /* PokeAPI-VIPERUITests */,
+			);
+			name = "PokeAPI-VIPERUITests";
+			packageProductDependencies = (
+			);
+			productName = "PokeAPI-VIPERUITests";
+			productReference = A00E7E622E7A93FC00BC2C50 /* PokeAPI-VIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00E7E3A2E7A93FB00BC2C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A00E7E412E7A93FB00BC2C50 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A00E7E572E7A93FC00BC2C50 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A00E7E412E7A93FB00BC2C50;
+					};
+					A00E7E612E7A93FC00BC2C50 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A00E7E412E7A93FB00BC2C50;
+					};
+				};
+			};
+			buildConfigurationList = A00E7E3D2E7A93FB00BC2C50 /* Build configuration list for PBXProject "PokeAPI-VIPER" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00E7E392E7A93FB00BC2C50;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A04E2AC72E7AA1D500EEA508 /* XCRemoteSwiftPackageReference "netfox" */,
+				A04E2ACA2E7AAE0300EEA508 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				A04E2ACF2E7AB71800EEA508 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A04E2AD22E7AB87F00EEA508 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A04E2AD52E7ACAE200EEA508 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				A04E2ADA2E7ACB0F00EEA508 /* XCRemoteSwiftPackageReference "Moya" */,
+				A04E2AE12E7ACB2800EEA508 /* XCRemoteSwiftPackageReference "Nuke" */,
+				A04E2AE82E7ACB3500EEA508 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				A04E2AEB2E7ACB5600EEA508 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A00E7E432E7A93FB00BC2C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00E7E412E7A93FB00BC2C50 /* PokeAPI-VIPER */,
+				A00E7E572E7A93FC00BC2C50 /* PokeAPI-VIPERTests */,
+				A00E7E612E7A93FC00BC2C50 /* PokeAPI-VIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00E7E402E7A93FB00BC2C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00E7E562E7A93FC00BC2C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00E7E602E7A93FC00BC2C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00E7E3E2E7A93FB00BC2C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00E7E542E7A93FC00BC2C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00E7E5E2E7A93FC00BC2C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00E7E5A2E7A93FC00BC2C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00E7E412E7A93FB00BC2C50 /* PokeAPI-VIPER */;
+			targetProxy = A00E7E592E7A93FC00BC2C50 /* PBXContainerItemProxy */;
+		};
+		A00E7E642E7A93FC00BC2C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00E7E412E7A93FB00BC2C50 /* PokeAPI-VIPER */;
+			targetProxy = A00E7E632E7A93FC00BC2C50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00E7E6C2E7A93FC00BC2C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PokeAPI-VIPER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AppWork.PokeAPI-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00E7E6D2E7A93FC00BC2C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PokeAPI-VIPER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AppWork.PokeAPI-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00E7E6E2E7A93FC00BC2C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00E7E6F2E7A93FC00BC2C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00E7E712E7A93FC00BC2C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AppWork.PokeAPI-VIPERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeAPI-VIPER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokeAPI-VIPER";
+			};
+			name = Debug;
+		};
+		A00E7E722E7A93FC00BC2C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AppWork.PokeAPI-VIPERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeAPI-VIPER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokeAPI-VIPER";
+			};
+			name = Release;
+		};
+		A00E7E742E7A93FC00BC2C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AppWork.PokeAPI-VIPERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PokeAPI-VIPER";
+			};
+			name = Debug;
+		};
+		A00E7E752E7A93FC00BC2C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AppWork.PokeAPI-VIPERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PokeAPI-VIPER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00E7E3D2E7A93FB00BC2C50 /* Build configuration list for PBXProject "PokeAPI-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00E7E6E2E7A93FC00BC2C50 /* Debug */,
+				A00E7E6F2E7A93FC00BC2C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00E7E6B2E7A93FC00BC2C50 /* Build configuration list for PBXNativeTarget "PokeAPI-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00E7E6C2E7A93FC00BC2C50 /* Debug */,
+				A00E7E6D2E7A93FC00BC2C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00E7E702E7A93FC00BC2C50 /* Build configuration list for PBXNativeTarget "PokeAPI-VIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00E7E712E7A93FC00BC2C50 /* Debug */,
+				A00E7E722E7A93FC00BC2C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00E7E732E7A93FC00BC2C50 /* Build configuration list for PBXNativeTarget "PokeAPI-VIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00E7E742E7A93FC00BC2C50 /* Debug */,
+				A00E7E752E7A93FC00BC2C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A04E2AC72E7AA1D500EEA508 /* XCRemoteSwiftPackageReference "netfox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kasketis/netfox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.21.0;
+			};
+		};
+		A04E2ACA2E7AAE0300EEA508 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A04E2ACF2E7AB71800EEA508 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		A04E2AD22E7AB87F00EEA508 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		A04E2AD52E7ACAE200EEA508 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		A04E2ADA2E7ACB0F00EEA508 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		A04E2AE12E7ACB2800EEA508 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+		A04E2AE82E7ACB3500EEA508 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		A04E2AEB2E7ACB5600EEA508 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A04E2AC82E7AA1D500EEA508 /* netfox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AC72E7AA1D500EEA508 /* XCRemoteSwiftPackageReference "netfox" */;
+			productName = netfox;
+		};
+		A04E2ACD2E7AAE0300EEA508 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2ACA2E7AAE0300EEA508 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		A04E2AD02E7AB71800EEA508 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2ACF2E7AB71800EEA508 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A04E2AD32E7AB87F00EEA508 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AD22E7AB87F00EEA508 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A04E2AD62E7ACAE200EEA508 /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AD52E7ACAE200EEA508 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		A04E2AD82E7ACAE200EEA508 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AD52E7ACAE200EEA508 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		A04E2ADB2E7ACB0F00EEA508 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2ADA2E7ACB0F00EEA508 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		A04E2ADD2E7ACB0F00EEA508 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2ADA2E7ACB0F00EEA508 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		A04E2ADF2E7ACB0F00EEA508 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2ADA2E7ACB0F00EEA508 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		A04E2AE22E7ACB2800EEA508 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AE12E7ACB2800EEA508 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		A04E2AE42E7ACB2800EEA508 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AE12E7ACB2800EEA508 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		A04E2AE62E7ACB2800EEA508 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AE12E7ACB2800EEA508 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		A04E2AE92E7ACB3500EEA508 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AE82E7ACB3500EEA508 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		A04E2AEC2E7ACB5600EEA508 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AEB2E7ACB5600EEA508 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		A04E2AEE2E7ACB5600EEA508 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AEB2E7ACB5600EEA508 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A04E2AF02E7ACB5600EEA508 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AEB2E7ACB5600EEA508 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		A04E2AF22E7ACB5600EEA508 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AEB2E7ACB5600EEA508 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		A04E2AF42E7ACB5600EEA508 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A04E2AEB2E7ACB5600EEA508 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00E7E3A2E7A93FB00BC2C50 /* Project object */;
+}
