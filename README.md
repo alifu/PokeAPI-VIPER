@@ -162,4 +162,5 @@ This project is part of my iOS development portfolio, showcasing:
 
 - [PokéAPI](https://pokeapi.co/) for providing the comprehensive Pokémon data
 - [VIPER](https://www.kodeco.com/8440907-getting-started-with-the-viper-architecture-pattern) for the excellent architecture (Article from kodeco)
+- [VIPER Template](https://github.com/alifu/XCode_Templates) for VIPER Template
 - [Figma Community](https://www.figma.com/design/ZNuMRRQvD6yoOaJWRUYzk2/Pok%C3%A9dex--Community-?node-id=913-239&t=vrCYCG8zKjWgmkJP-1) for the beautiful design inspiration

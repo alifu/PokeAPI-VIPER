@@ -2,7 +2,7 @@
 //  PokemonCardCell.swift
 //  PokeAPI-VIPER
 //
-//  Created by Alif Phincon on 18/09/25.
+//  Created by alif rama on 18/09/25.
 //
 
 import Nuke

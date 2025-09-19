@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PokeAPI-VIPER
 //
-//  Created by Alif Phincon on 17/09/25.
+//  Created by alif rama on 17/09/25.
 //
 
 import UIKit
